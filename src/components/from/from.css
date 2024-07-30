@@ -1,0 +1,95 @@
+.from{
+    background-color: 
+    #F8F8F8;
+    padding: 50px 0;
+}
+
+.from__item{
+    color: #646464;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.from__title{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.from__text{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 40px 0 20px 0;
+}
+.from__wrapper{
+    display: flex;
+justify-content: space-between;
+margin-top: 50px;
+}
+
+.from__p{
+    color: #646464;
+}
+.from__card{
+    text-align: left;
+    width: 500px;
+    transition: .9s;
+padding:25px 20px;
+border-radius:  75px 0;
+}
+
+.from__card:hover{
+    box-shadow: 5px 5px 20px rgba(164, 164, 164, 0.4);
+}
+
+
+
+.from__btn{
+    width: 270px;
+    height: 45px;
+    border-radius: 25px 0;
+    border: none;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #37806B;
+    color: white;
+    transition: .9s;
+}
+
+.from__btn:hover{
+    background-color: green;
+}
+
+
+
+@media(max-width: 1060px){
+    .from__img{
+        width: 100%;
+    }
+.from__wrapper{
+flex-direction: column;
+gap: 40px;
+}
+
+.from__card{
+    width: 100%;
+}
+}
+
+
+
+
+
+@media(max-width: 400px){
+    .from__card{
+        border-radius: 20px;
+    }
+    .from__btn{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+}

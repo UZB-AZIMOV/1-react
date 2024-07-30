@@ -1,0 +1,117 @@
+.bag{
+    padding: 50px 0;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.bag__title{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.book{
+    padding: 30px 0;
+}
+
+.hr{
+    width: 450px;
+    height: 2px;
+    background-color: 
+    #C4C4C4;
+    margin: auto;
+
+}
+
+.bag__item{
+    margin: auto;
+    color: 
+    #646464;
+    width: 610px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bag__inp{
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    height: 100%;
+    flex: 1;
+    padding: 0 10px;
+    background-color: 
+    #EEEEEE;
+}
+
+.bag__btn{
+    border: none;
+    background-color: 
+    #37806B;
+    color: white;
+    transition: .9s;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bag__btn:hover{
+    background-color: green;
+}
+
+
+.bag__box{
+margin: auto;
+    display: flex;
+    max-width: 750px;
+    height: 40px;
+    background-color: 
+    #EEEEEE;
+}
+
+
+
+
+
+@media(max-width: 700px){
+    .bag__title{
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .hr{
+        width: 300px;
+    }
+
+    .bag__item{
+        width: 450px;
+    }
+}
+
+
+
+
+
+@media(max-width: 520px){
+    .bag__title{
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .hr{
+        width: 300px;
+        padding: 0 20px;
+    }
+
+    .bag__item{
+        width: 300px;
+    }
+
+    .bag__btn{
+        width: 100px;
+        font-size: 16px;
+    }
+    .bag__inp{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,102 @@
+
+.years{
+    margin-top: 50px;
+}
+.years__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.years__card{
+    padding: 20px;
+    text-align: left;
+    max-width: 550px;
+}
+
+.years__item{
+    color: #646464;
+    margin: 60px 0 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.years__title{
+font-size: 48px;
+font-weight: 500;
+margin-bottom: 20px;
+}
+
+.years__text{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 600px;
+}
+
+.years__btn{
+    width: 145px;
+    height: 40px;
+    border-radius: 20px 0;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #37806B;
+    color: white;
+    transition: .9s;
+}
+
+.years__btn:hover{
+    background-color: green;
+}
+
+
+@media(max-width: 1136px){
+    .year__img{
+    width: 100%;
+    }
+    .years{
+        margin-top: 10px;
+    }
+    .years__wrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .years__card{
+      width: 100%;
+    }
+    .years__img{
+        width: 100%;
+    }
+    .years__item{
+        margin-top: 0;
+    }
+}
+
+
+@media(max-width: 550px){
+
+    .years__title{
+        font-size: 50px;
+    }
+    .years__card{
+        padding: 10px 5px;
+    }
+}
+
+
+
+@media(max-width: 430px){
+    .years__title{
+        font-size: 40px;
+    }
+}
+
+
+
+@media(max-width: 360px){
+
+    .years__title{
+        font-size: 28px;
+        font-weight: 700;
+        width: 100%;
+    }
+}
